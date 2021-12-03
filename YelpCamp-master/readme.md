@@ -14,7 +14,7 @@ Each Campground has:
 * Use campground model inside of our routes
 
 
-## Auth Pt. 4 - Logout/Navbar
+## Auth- Logout/Navbar
 * Add logout route
 * Prevent user from adding a comment if not signed in
 * Add links to navbar
@@ -33,22 +33,22 @@ Each Campground has:
 * Add Link to Edit Page
 * Add Update Route
 
-#Deleting Campgrounds
+Deleting Campgrounds
 * Add Destroy Route
 * Add Delete button
 
-#Authorization Part 1: Campgrounds
+Authorization Part 1: Campgrounds
 * User can only edit his/her campgrounds
 * User can only delete his/her campgrounds
 * Hide/Show edit and delete buttons
 
-#Authorization Part 2: Comments
+Authorization Part 2: Comments
 * User can only edit his/her comments
 * User can only delete his/her comments
 * Hide/Show edit and delete buttons
 * Refactor Middleware
 
-#Adding in Flash!
+Adding in Flash!
 * Demo working version
 * Install and configure connect-flash
 * Add bootstrap alerts to header
