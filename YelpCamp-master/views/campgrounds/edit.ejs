@@ -1,0 +1,23 @@
+<% include ../partials/header %>
+<div class="w-50 m-auto border border-primary border-2 rounded pt-2 mt-2 mb-2 bg-light">
+    <div class="row">
+        <h1 style="text-align: center">Edit <%= campground.name %></h1>
+        <div class = "w-75"style=" margin: 25px auto;">
+            <form action="/campgrounds/<%= campground._id %>?_method=PUT" method="POST">
+                
+                    <input class="form-control mb-3" type="text" name="campground[name]" value="<%= campground.name %>" required>
+                                
+                    <input class="form-control mb-3" type="text" name="campground[image]" value="<%= campground.image %>" required>
+                                
+                    <input class="form-control mb-3" type="number" name="campground[price]" value="<%= campground.price %>" >
+                                
+                    <textarea rows = "3" class="form-control mb-3" name="campground[description]" "><%= campground.description %></textarea>
+                                
+                    <button class="btn btn-primary mb-2">Submit!</button>
+            </form>
+            <a href="/campgrounds">Go Back</a>
+        </div>
+    </div>
+</div>
+<% include ../partials/footer %>
+
