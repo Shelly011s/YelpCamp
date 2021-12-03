@@ -1,6 +1,6 @@
-#YelpCamp
+# YelpCamp
 
-##Initial Setup
+## Initial Setup
 * Add Landing Page
 * Add Campgrounds Page that lists all campgrounds
 
@@ -8,22 +8,22 @@ Each Campground has:
    * Name
    * Image
 
-##Add Mongoose
+## Add Mongoose
 * Install and configure Mongoose
 * Setup campground model
 * Use campground model inside of our routes
 
 
-##Auth Pt. 4 - Logout/Navbar
+## Auth Pt. 4 - Logout/Navbar
 * Add logout route
 * Prevent user from adding a comment if not signed in
 * Add links to navbar
 
-##Users + Comments
+## Users + Comments
 * Associate users and comments
 * Save author's name to a comment automatically
 
-##Users + Campgrounds
+## Users + Campgrounds
 * Prevent an unauthenticated user from creating a campground
 * Save username+id to newly created campground
 
